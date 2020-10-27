@@ -10,4 +10,4 @@ while(tebak != bil):
     elif(tebak>= bil):
         print("Hehehe... Bilangan tebakan Anda terlalu besar")
     tebak = int(input("Tebakan Anda :"))
-print("Yeeee... Bilangan tebakan Anda BENAR")
+print("Yeeee... Bilangan tebakan Anda BENAR :-) ")

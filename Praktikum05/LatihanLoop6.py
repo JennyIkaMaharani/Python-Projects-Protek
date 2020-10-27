@@ -14,5 +14,5 @@ while(tebak != bil):
     tebak = int(input("Tebakan Anda :"))
 if(nilai<=0):
     nilai = 0
-print("Yeeee... Bilangan tebakan Anda BENAR")
+print("Yeeee... Bilangan tebakan Anda BENAR :-)")
 print("Score Anda :", nilai)
