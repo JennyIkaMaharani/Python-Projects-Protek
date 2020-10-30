@@ -1,13 +1,22 @@
 def starFormation1(n):
-    i = 1
-    while(i <= n):
-        print('*' * i)
-        i+=1
-
+    i = 0
+    while(i < n):
+        j = 0
+        while(j <= i):
+            print('*', end="")
+            j+=1
+        print(' ')
+        i += 1
 def starFormation2(n):
-        k = n
-        while(k > 0):
-            print('*' * k)
-            k -= 1
-starFormation1(4)
-starFormation2(3)
+        i = 0
+        while(i < n):
+            j = n
+            while(j > i):
+                print('*', end="")
+                j -= 1
+            print(' ')
+            i += 1
+def starFormation3(n):
+    starFormation1((n//2+1))
+    starFormation2((n//2))
+starFormation3(7)
