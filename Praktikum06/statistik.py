@@ -10,7 +10,7 @@ def average(*dData):
     rata = sum(*dData) / n
     return rata
 def maks(*dData):
-    maksi = -100
+    maksi = average(*dData)
     for num in dData:
         if maksi > num:
             maksi = maksi
@@ -18,11 +18,10 @@ def maks(*dData):
             maksi = num
     return maksi
 def minimal(*dData):
-    mini = 999
+    mini = average(*dData)
     for number in dData:
         if mini < number:
             mini = mini
         else:
             mini = number
     return mini
-
